@@ -152,6 +152,10 @@ main {
     margin: 5px 0px;
 }
 
+.lanItem h2, .lanItem h3 {
+    display: inline;
+}
+
 .achievements ul , .achievements h2 , .achievements p{
     margin: 0;
 }
