@@ -1,0 +1,158 @@
+/* #1A2226 Negro*/
+/* #313A40 Gris asulado*/
+/* #D9CDBF Arena*/
+/* #F2E6D8 Beige*/
+/* #F2F2F2 Blanco*/
+
+body {
+    background-color: #F2F2F2;
+    /*font-family: 'Cinzel', serif;*/
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color : #1A2226;
+}
+
+a:visited{
+    color : #1A2226;
+}
+
+header {
+    margin: -10px -10px 0px -10px;
+    padding-top: 50px;
+    /*background-color: #313A40;*/
+    color: #1A2226;
+}
+
+.margin {
+    width: 80%;
+    margin: 0% 0% 0% 10%;
+}
+
+.picture {
+    padding: 40px 0px 0px 10px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    /*border: solid 15px #313A40;*/
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.frontInfo {
+    height: 200px;
+    margin-left: 250px;
+    padding: 20px 0px 0px 0px;
+}
+
+.frontInfo h1 {
+    font-size: 3em;
+    margin: 15px 0px 0px 10px;
+}
+
+.frontInfo h2 {
+    font-size: 2em;
+    margin: 0px 0px 20px 10px;
+}
+
+.personalList{
+    margin: 0px 0px 0px -40px;
+}
+
+.contactList {
+    margin: 0px 0px 0px -40px;
+}
+
+.personalList, .contactList {
+    font-size: 1em;
+}
+
+.personalList li, .contactList li{
+    display: inline;
+    padding-right: 5px;
+    padding-left: 10px;
+    border-right: solid 1px #1A2226;
+}
+
+.personalList li:last-child, .contactList li:last-child{
+    border-right: none;
+}
+
+main {
+    clear: both;
+    color: #1A2226;
+}
+
+.solidLine {
+    margin-top: -20px;
+    border-top: solid 3px #1A2226;
+    border-radius: 3px;
+}
+
+.dotLine {
+    margin-top: 10px;
+    border-top: dashed 1px #1A2226;
+}
+
+.leftSide {
+    float: left;
+    width: 55%;
+    height: auto;
+    padding: 0% 5% 0% 0%;
+    margin-bottom: 100px;
+}
+
+.rightSide {
+    float: right;
+    width: 40%;
+    height: auto;
+}
+
+.expItem h2 , .expItem div {
+    margin: 0;
+}
+
+.expItemInfo li, .expItemInfo i {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.skills {
+    margin-bottom: 10px;
+}
+
+.skillItem h3 {
+    display: inline-block;
+    margin: 0;
+}
+
+.skillItem div, .skillItem div i {
+    float: right;
+}
+
+.education {
+    clear: both;
+}
+.eduItem h2, div h4, p{
+    margin: 0;
+}
+
+.eduItem i, .eduItem p, .lanItem i, .lanItem p, .eduItem h4, .lanItem h4, .expItem h4, .expItem i{
+    display: inline-block;
+}
+
+.lanItem h2, div h4, p{
+    margin: 0;
+}
+
+.achievements ul , .achievements h2 , .achievements p{
+    margin: 0;
+}
+
+.proyects h2, .proyects div {
+    margin: 0;
+}
