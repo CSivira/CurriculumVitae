@@ -20,14 +20,14 @@ a:visited{
 
 header {
     margin: -10px -10px 0px -10px;
-    padding-top: 50px;
+    padding-top: 70px;
     /*background-color: #313A40;*/
     color: #1A2226;
 }
 
 .margin {
-    width: 80%;
-    margin: 0% 0% 0% 10%;
+    width: 70%;
+    margin: 0% 0% 0% 15%;
 }
 
 .picture {
@@ -45,7 +45,7 @@ img {
 
 .frontInfo {
     height: 200px;
-    margin-left: 250px;
+    margin-left: 0px;
     padding: 20px 0px 0px 0px;
 }
 
@@ -103,7 +103,7 @@ main {
     width: 55%;
     height: auto;
     padding: 0% 5% 0% 0%;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 .rightSide {
@@ -116,18 +116,21 @@ main {
     margin: 0;
 }
 
-.expItemInfo li, .expItemInfo i {
-    display: inline-block;
-    list-style-type: none;
-}
+.expItem ul li h4, .expItem ul li p {
+    margin: 0;
+} 
 
-.skills {
-    margin-bottom: 10px;
+.expItem ul li {
+    margin: 10px 0px;
 }
 
 .skillItem h3 {
     display: inline-block;
-    margin: 0;
+    margin: 3px 0px;
+}
+
+.skillItem div {
+    margin: 6px 0px;
 }
 
 .skillItem div, .skillItem div i {
@@ -138,7 +141,7 @@ main {
     clear: both;
 }
 .eduItem h2, div h4, p{
-    margin: 0;
+    margin: 5px 0px;
 }
 
 .eduItem i, .eduItem p, .lanItem i, .lanItem p, .eduItem h4, .lanItem h4, .expItem h4, .expItem i{
@@ -146,7 +149,7 @@ main {
 }
 
 .lanItem h2, div h4, p{
-    margin: 0;
+    margin: 5px 0px;
 }
 
 .achievements ul , .achievements h2 , .achievements p{
@@ -155,4 +158,8 @@ main {
 
 .proyects h2, .proyects div {
     margin: 0;
+}
+
+.proItem p {
+    margin: 10px 0px;
 }
